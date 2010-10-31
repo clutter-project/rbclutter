@@ -273,10 +273,6 @@ Init_clutter ()
                rbclt_c_clutter);
   G_DEF_CONSTANTS (rbclt_c_clutter, CLUTTER_TYPE_ALLOCATION_FLAGS, "CLUTTER_");
 
-  G_DEF_CLASS (CLUTTER_TYPE_REDRAW_FLAGS, "RedrawFlags",
-               rbclt_c_clutter);
-  G_DEF_CONSTANTS (rbclt_c_clutter, CLUTTER_TYPE_REDRAW_FLAGS, "CLUTTER_");
-
   G_DEF_CLASS (CLUTTER_TYPE_TEXT_DIRECTION, "TextDirection",
                rbclt_c_clutter);
   G_DEF_CONSTANTS (rbclt_c_clutter, CLUTTER_TYPE_TEXT_DIRECTION, "CLUTTER_");
